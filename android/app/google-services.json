@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "480724099564",
+    "project_id": "recipe-app-fyp",
+    "storage_bucket": "recipe-app-fyp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480724099564:android:a8daf1544d8ceb969660c9",
+        "android_client_info": {
+          "package_name": "com.arsalanurrehman.food_diary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480724099564-6usrqft7p1csr36ub7794ami6g3lv9vf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoPhcdPBVsuSFaCT0cY0hkGZfDnsDSyaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480724099564-6usrqft7p1csr36ub7794ami6g3lv9vf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+name: food_diary
+description: Recipe Sharing Platform
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.1.0
+  fluttertoast: ^8.0.7
+  font_awesome_flutter: ^9.1.0
+  animated_bottom_navigation_bar: ^0.3.2
+  carousel_slider: ^4.0.0-nullsafety.0
+  firebase_core: ^1.5.0
+  firebase_auth: ^3.0.2
+  firebase_storage: ^10.0.2
+  cloud_firestore: ^2.2.1
+  package_info: ^2.0.2
+  loading_overlay: ^0.3.0
+  image_picker: ^0.8.0+3
+  intl: ^0.17.0
+  flutter_launcher_icons: ^0.9.0
+  cached_network_image: ^3.1.0
+  http: ^0.13.3
+  pagination: ^0.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/logo/
+    - assets/images/
