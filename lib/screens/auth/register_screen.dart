@@ -81,7 +81,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
       child: SingleChildScrollView(
         child: Stack(
           children: [
-            BackButton(),
+            BackButton(color: Colors.white),
             Container(
               padding: EdgeInsets.symmetric(
                 vertical: SizeConfig.blockSizeVertical * 5.0,

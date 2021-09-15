@@ -39,6 +39,7 @@ class _SearchRecipeScreenState extends State<SearchRecipeScreen> {
     if (jsonResponse['error'] == 0) {
       setState(() {
         _recipes = jsonResponse['recipes'];
+        print(_recipes.length);
       });
     } else {
       ConstantManager.showtoast('Network Error. Please try again');

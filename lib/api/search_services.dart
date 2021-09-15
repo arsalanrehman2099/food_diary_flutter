@@ -7,6 +7,7 @@ class SearchServices {
 
   static const INGREDIENT_ENDPOINT = "/ingredient";
   static const SEARCH_ENDPOINT = "/recipe-by-ingredient";
+  static const SINGLE_SEARCH_ENDPOINT = "/recipe-by-single-ingredient";
 
   fetchIngredients() async {
     var url = Uri.parse(BASE_URL + INGREDIENT_ENDPOINT);
@@ -14,7 +15,7 @@ class SearchServices {
   }
 
   fetchRecipes(selectedIngredients) async {
-    var url = Uri.parse(BASE_URL + SEARCH_ENDPOINT);
+    var url = Uri.parse(BASE_URL + SINGLE_SEARCH_ENDPOINT);
     return await http.post(
         url, headers: {'Content-Type': 'application/json; charset=UTF-8'},
         body: json.encode({"ingredients":selectedIngredients}));

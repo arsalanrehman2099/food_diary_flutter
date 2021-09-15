@@ -2,7 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:food_diary/firebase/recipe_helper.dart';
 import 'package:food_diary/firebase/user_helper.dart';
-import 'package:food_diary/screens/dashboard/recipe_details_screen.dart';
+import 'package:food_diary/screens/search/recipe_detail_screen.dart';
 import 'package:food_diary/utils/constant_manager.dart';
 import 'package:food_diary/utils/size_config.dart';
 
@@ -14,12 +14,12 @@ class SearchItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-   ;
+
     SizeConfig().init(context);
 
     return InkWell(
       onTap: (){
-        // ConstantManager.screenNavigation(context, RecipeDetailScreen(data));
+        ConstantManager.screenNavigation(context, RecipeDetailScreen(data));
       },
       child: Container(
         decoration: BoxDecoration(
